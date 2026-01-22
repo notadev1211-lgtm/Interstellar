@@ -167,3 +167,7 @@ img {
       height: 40px;
    }
 }
+/* Hides the Interstellar navigation bar permanently */
+.f-nav {
+    display: none !important;
+}
