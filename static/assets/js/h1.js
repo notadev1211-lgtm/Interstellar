@@ -11,7 +11,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox") && localStorage.getItem
   const popup = open("about:blank", "_blank");
   setTimeout(() => {
     if (!popup || popup.closed) {
-      alert("Please allow popups for this site. Doing so will allow us to open the site in a about:blank tab and preventing this site from showing up in your history. You can turn this off in the site settings.");
+      alert("Please note i took so long making this, i stay up all night and day proviving fun for studets. If you see me just thank me so i know my effort is worth it, also keeping this site free.");
     } else {
       const doc = popup.document;
       const iframe = doc.createElement("iframe");
@@ -167,16 +167,13 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
+  "lauren-R is annoying",
+  "ethan is a cool guy",
+  "Made by Nick",
+  "Built different by Nick",
   "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "hiii",
+  "Check out my Patreon",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
